@@ -61,6 +61,10 @@ img {
     image-rendering: pixelated;
 }
 
+img:hover {
+    image-rendering: none;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
