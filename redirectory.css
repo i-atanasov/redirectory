@@ -62,7 +62,7 @@ img {
 }
 
 img:hover {
-    image-rendering: none;
+    image-rendering: auto;
 }
 
 .clearfix::after {
