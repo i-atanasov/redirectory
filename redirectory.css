@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: kongtext;
+    src: url(kongtext.ttf);
+}
+
+
+body {
+    background-color: black;
+}
+
+.firstCont {
+    width: 800px;
+    margin: auto;
+}
+
+h1, h4 {
+    margin-top: 100px;
+    text-align: center;
+    color: limegreen;
+}
+
+h2 {
+    color: rgba(50, 205, 50, 0.747);
+    margin: auto;
+    padding-bottom: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+
+#textBar {
+    color:antiquewhite;
+}
+
+.secCont {
+    width: 80%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+h2:hover {
+    color: limegreen;
+    cursor: pointer;
+}
+
+img {
+    float: right;
+    width: 250px;
+    image-rendering: pixelated;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+div {
+    margin-top: 200px;
+}
+
+.progBar {
+    float: none;
+    border-color: darkgreen;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+.progBar:hover {
+    border-color: limegreen;
+    border-style: solid;
+}
