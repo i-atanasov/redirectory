@@ -57,7 +57,7 @@ h2:hover {
 
 img {
     float: right;
-    width: 250px;
+    max-width: 250px;
     image-rendering: pixelated;
 }
 
